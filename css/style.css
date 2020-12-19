@@ -1,0 +1,124 @@
+*{margin: 0;}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+
+header{width: 100%; height: 8.5rem; background-color: #0018FF;}
+header > nav{width: 102.4rem;margin: auto;display: flex;justify-content: space-between;align-items: center;height: 8rem;}
+header > nav > .logo{padding-top: 1rem;}
+
+header > nav > .menu{display: inline-block;}
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li{float: left; margin: 0rem 5rem; height: 2.5rem; width: 3rem; }
+header > nav > .menu > ul > li > a{color: #000000;font-family: 'Noto Sans KR', sans-serif; font-size: 1.5rem; font-weight: 500;letter-spacing: -0.02rem;}
+header > nav > .menu > ul > li > a:hover{color:#000000; font-size:1.6rem; font-weight:bold;}
+section > .keyvisual{background-image: url('../img/02_keyvisual.png'); height: 70rem;}
+section > .keyvisual > .keyvisual_wrap{margin: auto; width: 102.4rem; height: 70rem;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title{padding-bottom: 15rem; text-align: center;}
+
+
+section > .profile{background-color: #ffffff; height: 370rem;}
+section > .profile > .profile_wrap{margin: auto; width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_01 > .box{padding-top: 20.5rem; position: relative;}
+section > .profile > .profile_wrap > .profile_01 > .box > .front{position: absolute;z-index: 2;/}
+section > .profile > .profile_wrap > .profile_01 > .box > .back{padding-top: 13.8rem; position: absolute;z-index: 1;/}
+section > .profile > .profile_wrap > .profile_02{margin-top: 95rem;}
+section > .profile > .profile_wrap > .profile_03{margin-top: 25rem;}
+section > .profile > .profile_wrap > .profile_04{margin-top: 30rem;}
+section > .profile > .profile_wrap > .profile_05{margin-top: 30rem;}
+
+
+
+footer{background-color: #BABABA; height: 15rem; margin: auto;}
+footer > .footer_txt{text-align:center; padding-top: 5.6rem; font-family: 'Noto Sans KR', sans-serif; font-size: 2.4rem; font-weight: 300; color: #ffffff;}
+
+ /*sub01 페이지*/
+
+.sub_header{width: 100%; height: 8.5rem; background-color: #000000;}
+.sub_header > nav{width: 102.4rem;margin: auto;display: flex;justify-content: space-between;align-items: center;height: 8rem;}
+.sub_header > nav > .logo{padding-top: 1rem;}
+.sub_header > nav > .menu{display: inline-block;}
+.sub_header > nav > .menu > ul{list-style: none;}
+.sub_header > nav > .menu > ul > li{float: left; margin: 0rem 5rem; height: 2.5rem; width: 3rem;}
+.sub_header > nav > .menu > ul > li > a{color: #ffffff;font-family: 'Noto Sans KR', sans-serif; font-size: 1.5rem; font-weight: 500;letter-spacing: -0.02rem;}
+.sub_header > nav > .menu > ul > li > a:hover{color:#ffffff; font-size:1.6rem; font-weight:bold;}
+
+section > .sub01_key {background-image: url('../img/sub01_01.png'); height: 70rem; background-position: center; }
+section > .sub01_key > .sub01_key_wrap {margin: auto; width: 102.4rem; height: 70rem;}
+section > .sub_01 {background-color: #ffffff; height: 390rem;}
+section > .sub_01 > .sub01_c01 > .sub01_c01_wrap{margin: auto; width: 192rem;}
+section > .sub_01 > .sub01_c01 > .sub01_c01_wrap > .sub01_01t {margin: auto; width: 102.4rem; padding-top: 20rem;}
+section > .sub_01 > .sub01_c01 > .sub01_c01_wrap > .box > {position: relative;}
+section > .sub_01 > .sub01_c01 > .sub01_c01_wrap > .box > .front{margin-top: 69.57rem; position: absolute; z-index: 3;/}
+section > .sub_01 > .sub01_c01 > .sub01_c01_wrap > .box > .middle{margin-top: 14rem; position: absolute; z-index: 2;/}
+section > .sub_01 > .sub01_c01 > .sub01_c01_wrap > .box > .back{margin-top: 4rem; position: absolute; z-index: 1;/}
+section > .sub_01 > .sub01_c01 > .sub01_c01_wrap > .sub01_c01_txt {margin: auto; width: 102.4rem; padding-top: 105rem;}
+
+
+section > .sub_01 > .sub01_c02 > .sub01_c02_wrap{margin: auto; width: 192rem;}
+section > .sub_01 > .sub01_c02 > .sub01_c02_wrap > .sub01_02t {margin: auto; width: 102.4rem; padding-top: 20rem;}
+section > .sub_01 > .sub01_c02 > .sub01_c02_wrap > .box > {position: relative;}
+section > .sub_01 > .sub01_c02 > .sub01_c02_wrap > .box > .front{margin-top: 4rem; position: absolute; z-index: 2;/}
+section > .sub_01 > .sub01_c02 > .sub01_c02_wrap > .box > .back{margin-top: 10rem; position: absolute; z-index: 1;/}
+section > .sub_01 > .sub01_c02 > .sub01_c02_wrap > .sub01_c02_txt {margin: auto; width: 102.4rem; padding-top: 97rem;}
+
+ /*sub02 페이지*/
+
+ section > .sub02_key {background-image: url('../img/sub02_01.png'); height: 70rem;  background-position: center; }
+ section > .sub02_key > .sub02_key_wrap {margin: auto; width: 102.4rem; height: 70rem;}
+ section > .sub_02 {background-color: #ffffff; height: 295rem;}
+ section > .sub_02 > .sub02_c01 > .sub02_c01_wrap{margin: auto; width: 192rem;}
+ section > .sub_02 > .sub02_c01 > .sub02_c01_wrap > .sub02_01t {margin: auto; width: 102.4rem; padding-top: 20rem;}
+ section > .sub_02 > .sub02_c01 > .sub02_c01_wrap > .sub02_c01 {margin: auto; width: 102.4rem; padding-top: 4rem;}
+ section > .sub_02 > .sub02_c01 > .sub02_c01_wrap > .sub02_c01_txt{margin: auto; width: 102.4rem; padding-top: 12rem;}
+
+ section > .sub_02 > .sub02_c02 > .sub02_c02_wrap{margin: auto; width: 192rem;}
+ section > .sub_02 > .sub02_c02 > .sub02_c02_wrap > .box > {position: relative;}
+ section > .sub_02 > .sub02_c02 > .sub02_c02_wrap > .box > .front{margin-top: 26.8rem; position: absolute; z-index: 3;/}
+ section > .sub_02 > .sub02_c02 > .sub02_c02_wrap > .box > .middle{margin-top: 27.8rem; position: absolute; z-index: 2;/}
+ section > .sub_02 > .sub02_c02 > .sub02_c02_wrap > .box > .back{margin-top: 16rem; position: absolute; z-index: 1;/}
+
+  /*sub03 페이지*/
+
+  section > .sub03_key {background-image: url('../img/sub03_01.png'); height: 70rem; background-position: center; }
+  section > .sub03_key > .sub03_key_wrap {margin: auto; width: 102.4rem; height: 70rem;}
+  section > .sub_03 {background-color: #ffffff; height: 510rem;}
+  section > .sub_03 > .sub03_c01 > .sub03_c01_wrap{margin: auto; width: 192rem;}
+  section > .sub_03 > .sub03_c01 > .sub03_c01_wrap > .sub03_01t {margin: auto; width: 102.4rem; padding-top: 20rem;}
+  section > .sub_03 > .sub03_c01 > .sub03_c01_wrap > .box > {position: relative;}
+  section > .sub_03 > .sub03_c01 > .sub03_c01_wrap > .box > .front{margin-top: 8rem; position: absolute; z-index: 2;/}
+  section > .sub_03 > .sub03_c01 > .sub03_c01_wrap > .box > .back{margin-top: 4rem; position: absolute; z-index: 1;/}
+  section > .sub_03 > .sub03_c01 > .sub03_c01_wrap > .sub03_c01_txt {margin: auto; width: 102.4rem; padding-top: 104rem;}
+
+  section > .sub_03 > .sub03_c02 > .sub03_c02_wrap{margin: auto; width: 192rem;}
+  section > .sub_03 > .sub03_c02 > .sub03_c02_wrap > .box > {position: relative;}
+  section > .sub_03 > .sub03_c02 > .sub03_c02_wrap > .box > .front{margin-top: 23rem; position: absolute; z-index: 2;/}
+  section > .sub_03 > .sub03_c02 > .sub03_c02_wrap > .box > .back{margin-top: 18rem; position: absolute; z-index: 1;/}
+  section > .sub_03 > .sub03_c02 > .sub03_c02_wrap > .sub03_c02_txt {margin: auto; width: 102.4rem; padding-top: 104rem;}
+
+  section > .sub_03 > .sub03_c03 > .sub03_c03_wrap{margin: auto; width: 192rem;}
+  section > .sub_03 > .sub03_c03 > .sub03_c03_wrap > .sub03_03t {margin: auto; width: 102.4rem; padding-top: 20rem;}
+  section > .sub_03 > .sub03_c03 > .sub03_c03_wrap > .box > {position: relative;}
+  section > .sub_03 > .sub03_c03 > .sub03_c03_wrap > .box > .front{margin-top: 11rem; position: absolute; z-index: 3;/}
+  section > .sub_03 > .sub03_c03 > .sub03_c03_wrap > .box > .middle{margin-top: 11rem; position: absolute; z-index: 2;/}
+  section > .sub_03 > .sub03_c03 > .sub03_c03_wrap > .box > .back{margin-top: 4rem; position: absolute; z-index: 1;/}
+  section > .sub_03 > .sub03_c03 > .sub03_c03_wrap > .sub03_c03_txt {margin: auto; width: 102.4rem; padding-top: 84rem;}
+
+  /*sub04 페이지*/
+
+  section > .sub04_key {background-image: url('../img/sub04_01.png'); height: 70rem; background-position: center; }
+  section > .sub04_key > .sub04_key_wrap {margin: auto; width: 102.4rem; height: 70rem;}
+  section > .sub_04 {background-color: #ffffff; height: 370rem;}
+  section > .sub_04 > .sub04_c01 > .sub04_c01_wrap{margin: auto; width: 192rem;}
+  section > .sub_04 > .sub04_c01 > .sub04_c01_wrap > .sub04_01t {margin: auto; width: 102.4rem; padding-top: 20rem;}
+  section > .sub_04 > .sub04_c01 > .sub04_c01_wrap > .box > {position: relative;}
+  section > .sub_04 > .sub04_c01 > .sub04_c01_wrap > .box > .front{margin-top: 9rem; position: absolute; z-index: 2;/}
+  section > .sub_04 > .sub04_c01 > .sub04_c01_wrap > .box > .back{margin-top: 4rem; position: absolute; z-index: 1;/}
+  section > .sub_04 > .sub04_c01 > .sub04_c01_wrap > .sub04_c01_txt {margin: auto; width: 102.4rem; padding-top: 93rem;}
+
+  section > .sub_04 > .sub04_c02 > .sub04_c02_wrap{margin: auto; width: 192rem; }
+  section > .sub_04 > .sub04_c02 > .sub04_c02_wrap > .box > {position: relative;}
+  section > .sub_04 > .sub04_c02 > .sub04_c02_wrap > .box > .front{margin-top: 24rem; position: absolute; z-index: 2;/}
+  section > .sub_04 > .sub04_c02 > .sub04_c02_wrap > .box > .back{margin-top: 27rem; position: absolute; z-index: 1;/}
+  section > .sub_04 > .sub04_c02 > .sub04_c02_wrap > .sub04_c02_txt {margin: auto; width: 102.4rem; padding-top: 132rem;}

@@ -1,0 +1,88 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;color: #ffffff;}
+
+header{height: 9rem;}
+header > nav{background-color: #0018FF; margin: auto;display: flex;justify-content: space-between;align-items: center;}
+header > nav > .logo{display: inline-block;padding: 2.1rem 0rem 2.0rem 4rem;}
+header > nav > .menu{display: inline-block;padding-right: 4rem;}
+
+header > .nav_menu{position: relative;display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right;background-color: #000000;padding: 1.3rem 2.3rem;border-bottom: 1px solid #646464}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .top{background-color: #0018FF;height: 64.6rem;text-align: center;}
+
+section > .profile{background-color: #ffffff;height: 115.4rem;text-align: center;}
+section > .profile > .pf_01 > .box{padding-top: 2.2rem; }
+section > .profile > .pf_01 > .box > .front{position: absolute;z-index: 2;/}
+section > .profile > .pf_01 > .box > .back{padding-top: 0.4rem; padding-left: 4rem; position: absolute;z-index: 1;/}
+section > .profile > .pf_01{margin-top: 5rem;}
+section > .profile > .pf_02{margin-top: 23.2rem;}
+
+
+footer{background-color: #BABABA; height: 4rem;text-align: center;}
+footer > img{padding-top: 1.7rem;}
+
+/*--서브01--*/
+.sub_header {height: 9rem;}
+.sub_header > nav{background-color: #000000; margin: auto;display: flex;justify-content: space-between;align-items: center;}
+.sub_header > nav > .logo{display: inline-block;padding: 2.1rem 0rem 2.0rem 4rem;}
+.sub_header > nav > .menu{display: inline-block;padding-right: 4rem;}
+
+.sub_header > .nav_menu{position: relative;display: none;}
+.sub_header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+.sub_header > .nav_menu > ul > li{list-style: none;text-align: right;background-color: #000000;padding: 1.3rem 2.3rem;border-bottom: 1px solid #646464}
+.sub_header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;}
+
+.sub_header > .nav_menu.active{display: flex;}
+
+
+section > .sub_01_top{height: 30rem;}
+section > .sub_01_cont{background-color: #ffffff;height: 110rem;text-align: center;}
+section > .sub_01_cont > .content_01{padding-top: 4rem; padding-right: 1rem;}
+
+section > .sub_01_cont > .content_02{padding-top: 4rem;}
+
+
+
+/*--서브02--*/
+
+section > .sub_02_top{height: 30rem;text-align: center;}
+section > .sub_02_cont{background-color: #ffffff;height: 80rem;text-align: center;}
+section > .sub_02_cont > .txt_01{padding-top: 4rem; padding-right: 8.8rem;}
+section > .sub_02_cont > .content_01{padding-top: 1.4rem;}
+section > .sub_02_cont > .txt_02{padding-top: 2rem;}
+section > .sub_02_cont > .content_02{padding-top: 3.7rem;}
+
+/*--서브03--*/
+
+section > .sub_03_top{height: 30rem;text-align: center;}
+section > .sub_03_cont{background-color: #ffffff;height: 142rem;text-align: center;}
+section > .sub_03_cont > .txt_01{padding-top: 4rem; padding-right: 8.8rem;}
+section > .sub_03_cont > .content_01{padding-top: 1.4rem;}
+section > .sub_03_cont > .txt_02{padding-top: 2rem;}
+
+section > .sub_03_cont > .content_02{padding-top: 4rem;}
+section > .sub_03_cont > .txt_03{padding-top: 2rem;}
+
+section > .sub_03_cont > .txt_04{padding-top: 4rem; padding-right: 8.8rem;}
+section > .sub_03_cont > .content_03{padding-top: 1.4rem;}
+section > .sub_03_cont > .txt_05{padding-top: 2rem;}
+
+
+/*--서브04--*/
+
+section > .sub_04_top{height: 30rem;text-align: center;}
+section > .sub_04_cont{background-color: #ffffff; height: 93rem;text-align: center;}
+section > .sub_04_cont > .txt_01{padding-top: 4rem; padding-right: 8.8rem;}
+section > .sub_04_cont > .content_01{padding-top: 1.4rem;}
+section > .sub_04_cont > .txt_02{padding-top: 2rem;}
+
+section > .sub_04_cont > .content_02{padding-top: 4rem;}
+section > .sub_04_cont > .txt_03{padding-top: 2rem;}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sojeong's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="sub_header">
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="img/sub_logo.png" alt="imsojeong"></a>
+        </div>
+        <div class="menu">
+          <ul class="gnb">
+            <li><a href="sub_01.html">CI/BI</a></li>
+            <li><a href="sub_02.html">Package</a></li>
+            <li><a href="sub_03.html">Editorial</a></li>
+            <li><a href="sub_04.html">Advertisement</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+
+     <!--서브 키비주얼 부문-->
+
+      <div class="sub03_key">
+        <div class="sub03_key_wrap">
+        </div>
+      </div>
+
+     <!--서브 컨텐츠 부문-->
+
+     <div class="sub_03">
+
+       <div class="sub03_c01">
+         <div class="sub03_c01_wrap">
+           <div class="sub03_01t"><img src="img/sub03_txt01.png" alt="아가미"></div>
+            <div class="box">
+             <div class="back"><img src="img/sub03_c01.png" alt="sub03_01"></div>
+             <div class="front" data-aos="fade-right" data-aos-duration="1500"><img src="img/sub03_c02.png" alt="sub03_01_글자"></div>
+            </div>
+          <div class="sub03_c01_txt" data-aos="fade-up" data-aos-duration="1900"><img src="img/sub03_c01_txt.png" alt="sub03_01설명"></div>
+         </div>
+       </div>
+
+
+      <div class="sub03_c02">
+        <div class="sub03_c02_wrap">
+           <div class="box">
+             <div class="back" data-aos="fade-left" data-aos-duration="1500"><img src="img/sub03_c03.png" alt="sub03_02"></div>
+             <div class="front" data-aos="fade-right" data-aos-duration="1500"><img src="img/sub03_txt02.png" alt="sub03_02_지젤"></div>
+           </div>
+          <div class="sub03_c02_txt" data-aos="fade-up" data-aos-duration="2000"><img src="img/sub03_c02_txt.png" alt="sub03_02설명"></div>
+        </div>
+       </div>
+
+       <div class="sub03_c03">
+         <div class="sub03_c03_wrap">
+           <div class="sub03_03t"><img src="img/sub03_txt03.png" alt="nite"></div>
+            <div class="box">
+              <div class="back" data-aos="fade-down" data-aos-duration="1500"><img src="img/sub03_c04.png" alt="sub03_03"></div>
+              <div class="middle" data-aos="fade-left" data-aos-duration="1600"><img src="img/sub03_c06.png" alt="sub03_03"></div>
+              <div class="front" data-aos="fade-right" data-aos-duration="1600"><img src="img/sub03_c05.png" alt="sub03_02_nite"></div>
+            </div>
+           <div class="sub03_c03_txt" data-aos="fade-up" data-aos-duration="2000"><img src="img/sub03_c03_txt.png" alt="sub03_03설명"></div>
+         </div>
+        </div>
+     </div>
+
+
+    </section>
+
+    <!--푸터 부문-->
+    <footer>
+
+        <p class="footer_txt">Copyright 2020 Sojeong. All right reserved.</p>
+
+    </footer>
+
+    <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+      }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+  </body>
+</html>

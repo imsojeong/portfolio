@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<!--모바일로 이동하는 스크립트 시작-->
+<script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+</script>
+<!--모바일로 이동하는 스크립트 끝-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sojeong's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="img/01_logo.png" alt="imsojeong"></a>
+        </div>
+        <div class="menu">
+          <ul class="gnb">
+            <li><a href="sub_01.html">CI/BI</a></li>
+            <li><a href="sub_02.html">Package</a></li>
+            <li><a href="sub_03.html">Editorial</a></li>
+            <li><a href="sub_04.html">Advertisement</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <!--키비주얼 부문-->
+      <div class="keyvisual">
+        <div class="keyvisual_wrap">
+          <div class="keyvisual_title" data-aos="fade-down" data-aos-duration="1400">
+          <img src="img/03_keyvisual_t.png" alt="비주얼">
+          </div>
+        </div>
+      </div>
+
+      <!--프로필 부문-->
+      <div class="profile">
+        <div class="profile_wrap">
+         <div class="profile_01">
+          <div class="box">
+           <div class="front"><img src="img/04_01_txt.png" alt="profile"></div>
+           <div class="back" data-aos="fade-up" data-aos-duration="1600"><img src="img/04_01.gif" alt="profile_img"></div>
+          </div>
+         </div>
+          <div class="profile_02" data-aos="fade-up" data-aos-duration="1400"><img src="img/04_02_txt.png" alt="education"></div>
+          <div class="profile_03" data-aos="fade-up" data-aos-duration="1400"><img src="img/04_03_txt.png" alt="certificate"></div>
+          <div class="profile_04" data-aos="fade-up" data-aos-duration="1400"><img src="img/04_04_txt.png" alt="skills"></div>
+          <div class="profile_05" data-aos="fade-up" data-aos-duration="1400"><img src="img/04_05_txt.png" alt="awards"></div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+    <!--푸터 부문-->
+    <footer>
+
+        <p class="footer_txt">Copyright 2020 Sojeong. All right reserved.</p>
+
+    </footer>
+
+    <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+      }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+  </body>
+</html>
